@@ -1,0 +1,132 @@
+*{
+    text-decoration: none;
+}
+body{
+    min-height: 400px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color:#222;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: underline;
+}
+.navbar{
+    display: flex;
+    justify-content:flex-end;
+    max-width:1920px;
+    margin: auto;
+    padding: 20px 30px;
+}
+.right-side-nav{
+    display:flex;
+    justify-content: space-evenly;
+}
+.navbar a{
+    padding: 0 10px;
+}
+.footer{
+    max-width:1920px;
+    margin: auto;
+    background-color:#f2f2f2;
+    display:flex;
+    flex-direction: column;
+}
+.link{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 30px;
+    /* position: relative; */
+    height:64px;
+
+}
+.right-side-footer{
+    display:flex;
+    justify-content: space-evenly;
+}
+.link a{
+    padding: 0 10px;
+    color:#70757a;
+}
+.country-footer{
+    height:64px;
+    display:flex;
+    align-items: center;
+    padding: 0 40px; 
+    border-bottom: solid 1px #dadce0;
+    color: #70757a;
+}
+main{
+    min-height: calc(100vh - 64px - 128px);
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.search-session{
+    padding:20px;
+}
+main img{
+    margin: 0 auto;
+    padding:0 auto;
+    min-height: 92px;
+    max-height: 290px;
+}
+
+.search-bar{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    padding:0 auto;
+    border: 1px solid #dfe1e5;
+    border-radius: 25px;
+    max-width: 600px;
+    height: 44px;
+}
+.search-bar span{
+    display:flex;
+    width: 23px;
+    justify-content: space-evenly;
+    color:#9aa0a6;
+}
+.search-bar svg{
+    margin: 0;
+    /* padding: 0 10px 0 0; */
+    fill: currentColor;
+}
+
+.search-bar input{
+    width: calc(100% - 100px);
+    border: none;
+    margin: 0 10px;
+}
+
+
+.search-btn{
+    padding-top:18px;
+}
+
+.search-btn button{
+    text-decoration: none;
+    border: none;
+    padding: 7px 16px;
+    margin: 11px 4px;
+    color:#3c4043;
+    background-color: #f8f9fa;
+    border: solid 1px #f8f9fa;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.search-btn button:hover{
+    border: solid 1px #dadce0;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
