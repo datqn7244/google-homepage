@@ -50,7 +50,9 @@ a:hover{
     background-color: rgba(60,64,67,0.08);
     border-radius: 50%;
 }
-
+.navbar .select-icon a{
+    height:40px;
+}
 .navbar-link{
     margin-left:15px;
 }
@@ -135,7 +137,9 @@ main img{
     border: none;
     margin: 0 10px;
 }
-
+#search-box{
+    outline:none;
+}
 
 .search-btn{
     padding-top:18px;
