@@ -141,6 +141,11 @@ main img{
     outline:none;
 }
 
+#clear-text{
+    visibility: hidden;
+    cursor: pointer;
+}
+
 .search-btn{
     padding-top:18px;
 }
@@ -183,4 +188,25 @@ main img{
     border:1px solid #2b7de9;
     background:#2b7de9;
     box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
+}
+
+.language-change{
+    font-size: 12px;
+    padding: 15px 0px;
+}
+
+.language-change a{
+    color: #1a0dab;
+    letter-spacing: 0.5px;
+    padding: 0 2px;
+}
+
+.language-change a:hover, a:active{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width:1200px){
+    .link{
+        justify-content: space-evenly;
+    }
 }
