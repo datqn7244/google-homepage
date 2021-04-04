@@ -92,15 +92,16 @@
     const clearText = document.querySelector("#clear-text");
     const showClearText = (e) => {
       if (e.target.value) {
-        clearText.style.visibility = 'visible';
+        clearText.style.visibility = "visible";
       } else {
-        clearText.style.visibility = 'hidden';
+        clearText.style.visibility = "hidden";
       }
     };
-    const clearTextFunc = (e) =>{
-      searchBox.value=''
-    }
+    const clearTextFunc = (e) => {
+      searchBox.value = "";
+      clearText.style.visibility = "hidden";
+    };
     searchBox.addEventListener("input", showClearText);
-    clearText.addEventListener('click', clearTextFunc)
+    clearText.addEventListener("click", clearTextFunc);
   </script>
 </html>
